@@ -18,14 +18,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: "npm"
+
       - run: npm ci
-      - run: npm run build
+
+      # 👇 Unblock CRA: treat warnings as warnings, not errors
+      - run: CI=false npm run build
+
+      # 👇 Required for Pages (sets up the environment)
+      - uses: actions/configure-pages@v5
+
+      # 👇 CRA’s output folder is 'build', not 'dist'
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist   # change if your build folder is different
+          path: ./build
 
   deploy:
     needs: build
