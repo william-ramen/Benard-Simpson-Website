@@ -7,7 +7,7 @@ function CopyrightLabel(props) {
 
     return (
         <footer className='row text-center'>
-            <h5>© Design by {new Date().getFullYear()} Ben Oldham</h5>
+            <h5>© Design by {new Date().getFullYear()} Bernard Simpson</h5>
         </footer>
     );
 }

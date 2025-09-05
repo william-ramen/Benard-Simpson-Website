@@ -2,9 +2,9 @@
   {
     "id": 1,
     "show": true,
-    "title": "Example Article",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim justo vitae nisl gravida, vel pharetra orci eleifend. Vestibulum dignissim tellus justo, nec sodales urna mattis eget. Cras eu lacus ac est congue dapibus.",
-    "repoLink": "https://www.benoldham.dev/",
-    "imgPath": "/images/placeholder.jpg"
+    "title": "Sakuraco",
+    "description": "Japanese Snacks & Candy Subscription Boxes",
+    "repoLink": "https://sakura.co/",
+    "imgPath": "/images/1.jpg"
   }
 ]

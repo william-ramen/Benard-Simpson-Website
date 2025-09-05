@@ -60,13 +60,13 @@ function ProjectCard(props) {
                             <i className="bi bi-text-paragraph"></i> More info
                         </a>
 
-                        <a href={repoLink} target='_blank' className='link text-large'>
+                        {/* <a href={repoLink} target='_blank' className='link text-large'>
                             <i className='bi bi-github'></i> Repo
-                        </a>
+                        </a> */}
 
                         {props.data['demoLink'] ?
                             <a href={demoLink} target='_blank' className='link text-large'>
-                                <i className='bi bi-globe2'></i> Live demo
+                                <i className='bi bi-globe2'></i> Live
                             </a>
                             : null}
                     </div>

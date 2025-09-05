@@ -29,13 +29,13 @@ function App() {
           <Projects />
         }
 
-        {ProjectConfig.displaySections.articles &&
+        {/* {ProjectConfig.displaySections.articles &&
           <Articles />
         }
 
         {ProjectConfig.displaySections.open_source &&
           <OpenSource />
-        }
+        } */}
 
         <Contact />
 

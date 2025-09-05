@@ -17,7 +17,7 @@ function Contact() {
                     />
                 </div>
 
-                <div className='col-sm-6 mt-2'>
+                {/* <div className='col-sm-6 mt-2'>
                     <ContactLink
                         link={ContactData.LinkedIn.url}
                         iconName={ContactData.LinkedIn.iconClassName}
@@ -39,7 +39,7 @@ function Contact() {
                         iconName={ContactData.Medium.iconClassName}
                         text="Medium"
                     />
-                </div>
+                </div> */}
 
             </div>
 
